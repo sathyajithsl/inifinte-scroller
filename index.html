@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
-<body>
-	
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script src="script.js" defer></script>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<div id="card-container"></div>
+		<div id="loader">
+			<div class="skeleton-card"></div>
+			<div class="skeleton-card"></div>
+			<div class="skeleton-card"></div>
+		</div>
+		<div class="card-actions">
+			<span
+				>Showing <span id="card-count"></span> of<span id="card-total"></span>
+				cards</span
+			>
+		</div>
+	</body>
 </html>
